@@ -1,6 +1,7 @@
 import requests
-from bs4 import BeautifulSoup
 import pandas as pd
+from bs4 import BeautifulSoup
+
 
 base_site = "https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population"
 r = requests.get(base_site)
